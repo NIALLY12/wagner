@@ -1,0 +1,61 @@
+/* Configuração geral do fundo */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: #eef2f3;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Caixa principal centralizada */
+.container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 90%;
+}
+
+/* Estilo do Título */
+h1 {
+    color: #4a4a4a;
+    margin-bottom: 20px;
+}
+
+/* Estilo da área de texto */
+.mensagem {
+    font-size: 18px;
+    color: #777777;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    min-height: 60px;
+    transition: color 0.3s ease;
+}
+
+/* Estilo do Botão */
+.botao {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #6c5ce7;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.1s;
+}
+
+/* Efeito ao passar o mouse no botão */
+.botao:hover {
+    background-color: #5b4cc4;
+}
+
+/* Efeito ao clicar no botão */
+.botao:active {
+    transform: scale(0.98);
+}
